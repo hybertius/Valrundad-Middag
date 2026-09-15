@@ -89,6 +89,7 @@ body {
   width: 100%;
   max-width: 580px;
   height: 467px;
+  min-height: 467px;
   background-size: cover;
   background-position: center;
   background-color: #D9D9D9;
