@@ -88,8 +88,7 @@ body {
 .serving-image {
   width: 100%;
   max-width: 580px;
-  height: 467px;
-  min-height: 467px;
+  aspect-ratio: 4 / 3;
   background-size: cover;
   background-position: center;
   background-color: #D9D9D9;
@@ -202,9 +201,12 @@ body {
     gap: 24px;
   }
 
-  .serving-images img {
+  .serving-image {
     width: 100%;
-    height: auto;
-    min-width: 300px;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
   }
 }
