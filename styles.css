@@ -141,19 +141,15 @@ body {
     color: #A10000;
   }
 
-  .intro-box {
-    display: flex;
+.info-box {
     justify-content: center;
     align-items: center;
-    padding: 16px;
-    background: #EBEBEB;
-    width: 100%;
-  }
+}
 
-  .intro-box p {
+.info-box p {
     font-size: 16px;
     line-height: 22px;
-  }
+}
 
   .ingredients {
     width: 100%;
