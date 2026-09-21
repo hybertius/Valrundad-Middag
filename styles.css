@@ -37,6 +37,8 @@ body {
   gap: 10px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
 }
 .info-text {
   font-weight: 400;
